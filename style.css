@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Arvo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arima:wght@100;400&family=Arvo&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arvo, sans-serif, 'Open Sans';
+}
+
+
+.wrapper {
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+
+    background-position: center;
+    background-attachment: fixed;
+    background-image: url('https://img.freepik.com/free-vector/person-with-winter-cold-summer-heat-thermometer-man-standing-freeze-snow-suffering-from-hot-weather-flat-vector-illustration-meteorology-extreme-high-low-temperature-concept_74855-21258.jpg');
+}
+
+.container {
+    width: 80%;
+    height: 30rem;
+
+    margin: auto;
+    padding: 4rem;
+}
+
+.container h2 {
+    text-align: center;
+
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    margin-top: 5rem;
+    gap: 5rem
+}
+
+form {
+    display: flex;
+    gap: 1.3rem;
+    align-items: center;
+}
+
+form input {
+    height: 3rem;
+    width: 5rem;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 8px;
+    border: .5px solid gray;
+    background: transparent;
+
+}
+
+form select {
+    height: 1.5rem;
+    text-align: center;
+    border-radius: 6px;
+    background: #fff;
+    font-size: 1rem;
+    background: transparent;
+}
+
+
+
+#converted_value {
+    height: 3rem;
+    width: 5rem;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 8px;
+    border: .5px solid gray;
+    background: transparent;
+}
+
+.btn {
+    background: transparent;
+    padding: .7rem;
+    border-radius: 3rem;
+    cursor: pointer;
+    transition: all .4s;
+    border: .5px solid gray;
+
+}
+
+.btn:hover {
+    color: white;
+
+}

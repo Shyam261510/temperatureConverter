@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <h2>TEMPERATURE CONVERTER</h2>
+        <main>
+          <form>
+            <input type="number" class="convert" />
+
+            <select>
+              <option value="Kelvin">Kelvin</option>
+              <option value="Celcius">Celcius</option>
+            </select>
+          </form>
+          <button class="btn">Convert<span class="arrow"></span></button>
+          <input type="text" readonly id="converted_value" />
+        </main>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
